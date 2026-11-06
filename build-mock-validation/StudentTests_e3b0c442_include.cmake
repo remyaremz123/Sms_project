@@ -1,0 +1,5 @@
+if(EXISTS "C:/Practise/Day1/08_CopliotMockTest/StudentManagementSystem/build-mock-validation/StudentTests_e3b0c442_tests.cmake")
+  include("C:/Practise/Day1/08_CopliotMockTest/StudentManagementSystem/build-mock-validation/StudentTests_e3b0c442_tests.cmake")
+else()
+  add_test(StudentTests_NOT_BUILT StudentTests_NOT_BUILT)
+endif()

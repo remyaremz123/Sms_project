@@ -1,0 +1,16 @@
+StudentEntryTests.ReportsSuccessfulAdd 3 0.0168665
+StudentEntryTests.ReportsDuplicateIdWhenAddFails 3 0.0172233
+StudentManagerTests.StartsEmpty 4 0.0129146
+StudentManagerTests.AddsStudentAndFindsItById 4 0.0123893
+StudentManagerTests.RejectsDuplicateStudentIds 4 0.0114532
+StudentManagerTests.ReturnsNullptrForMissingId 4 0.013458
+StudentManagerTests.CalculatesAverageMarks 4 0.0129196
+StudentManagerTests.FindsTopStudent 4 0.0131563
+StudentTests.ConstructorAndGettersPreserveValues 4 0.0129825
+StudentTests.DisplayWritesAllFields 4 0.0130038
+StudentEntryMockTests.AddsValidStudentWhenManagerAccepts 3 0.0189789
+StudentEntryMockTests.ReportsDuplicateMessageWhenManagerRejects 3 0.0168676
+StudentEntryMockTests.DoesNotCallManagerForNonPositiveId 3 0.0172936
+StudentEntryMockTests.CallsManagerOnceAfterInvalidMarksAreRetried 3 0.0162912
+StudentEntryMockTests.RejectsDuplicateIdAndKeepsOriginalStudent 3 0.0173113
+---

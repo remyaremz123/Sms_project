@@ -1,0 +1,89 @@
+{
+  "tests": 13,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "StudentEntryMockTests",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "AddsValidStudentWhenManagerAccepts",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentEntryMockTests.cpp",
+          "line": 15
+        },
+        {
+          "name": "ReportsDuplicateMessageWhenManagerRejects",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentEntryMockTests.cpp",
+          "line": 32
+        },
+        {
+          "name": "DoesNotCallManagerForNonPositiveId",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentEntryMockTests.cpp",
+          "line": 48
+        },
+        {
+          "name": "CallsManagerOnceAfterInvalidMarksAreRetried",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentEntryMockTests.cpp",
+          "line": 62
+        },
+        {
+          "name": "RejectsDuplicateIdAndKeepsOriginalStudent",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentEntryMockTests.cpp",
+          "line": 80
+        }
+      ]
+    },
+    {
+      "name": "StudentManagerTests",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "StartsEmpty",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentManagerTests.cpp",
+          "line": 5
+        },
+        {
+          "name": "AddsStudentAndFindsItById",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentManagerTests.cpp",
+          "line": 15
+        },
+        {
+          "name": "RejectsDuplicateStudentIds",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentManagerTests.cpp",
+          "line": 26
+        },
+        {
+          "name": "ReturnsNullptrForMissingId",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentManagerTests.cpp",
+          "line": 35
+        },
+        {
+          "name": "CalculatesAverageMarks",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentManagerTests.cpp",
+          "line": 43
+        },
+        {
+          "name": "FindsTopStudent",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentManagerTests.cpp",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "name": "StudentTests",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ConstructorAndGettersPreserveValues",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentTests.cpp",
+          "line": 8
+        },
+        {
+          "name": "DisplayWritesAllFields",
+          "file": "C:\\Practise\\Day1\\08_CopliotMockTest\\StudentManagementSystem\\tests\\StudentTests.cpp",
+          "line": 17
+        }
+      ]
+    }
+  ]
+}
